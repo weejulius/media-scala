@@ -1,0 +1,9 @@
+{
+   schema:"schema2",
+   transformS:[
+      {
+            transform:"scale",
+            percentage: "abc"
+      }
+   ]
+}

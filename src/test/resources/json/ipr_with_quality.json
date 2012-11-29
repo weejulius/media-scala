@@ -1,0 +1,28 @@
+{
+   origin:"samples/sample_1024_1024.jpeg",
+   transforms:[
+      {
+            transform:"crop",
+            padding:[10,0.1,40,60]
+      },
+      {
+            transform:"scale",
+            width:0.5
+      },
+      {
+            transform:"overlay",
+            text:"Live it again",
+            right_bottom:[30,30]
+      },
+      {
+            transform:"overlay image",
+            image:"samples/sample_40_40.png",
+            opacity:0.3,
+            right_bottom:[130,30]
+      }   
+   ],
+   options:{
+         quality:0.9
+   },
+   destination:"test/sample_300_300_quality_option.jpeg"
+}

@@ -1,0 +1,27 @@
+{
+   schema:"schema1",
+   transforms:[
+      {
+            transform:"crop",
+            padding:[10,0.1,40,60]
+      },
+      {
+            transform:"scale",
+            width:"${scale_percentage}"
+      },
+      {
+            transform:"overlay",
+            text:"${overlay_text} text",
+            right_bottom:[30,30]
+      },
+      {
+            transform:"overlay image",
+            image:"samples/sample_40_40.png",
+            opacity:0.5,
+            right_bottom:[30,30]
+      }   
+   ],
+   options:{
+         quality:0.75
+   }
+}

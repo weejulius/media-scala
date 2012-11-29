@@ -1,0 +1,17 @@
+{
+  origin:"samples/sample_1024_1024.jpeg",
+  processes:[
+           {
+             schema:"schema2",
+             destination:"test/sample_1024_1024_schema1.jpeg"
+           },
+           {
+             schema:"schema1",
+             variables:{
+               scale_percentage:0.753,
+               overlay_text:"hello world"
+             },
+             destination:"test/sample_1024_1024_schema2.jpeg"
+           }
+         ]
+}

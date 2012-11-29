@@ -1,0 +1,10 @@
+{
+  "schema" : "variable_schema",
+  "transforms" : [ {
+    "transform" : "crop",
+    "left_top" : "${crop_left_top}",
+    "height" : "${crop_height}",
+    "width" : "${crop_width}",
+    "right_bottom":"${crop_right_bottom}"
+  } ]
+}

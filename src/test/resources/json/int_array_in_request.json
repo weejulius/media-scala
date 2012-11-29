@@ -1,0 +1,11 @@
+{
+    "origin": "http://stresser.thenetcircle.lab:8088/227-507d072ca1931.jpg",
+    "schema": "variable_schema",
+    "destination": "http://stresser.thenetcircle.lab:8088/avatar-227-507d072ca1931.jpg",
+    "variables": {
+        "crop_left_top":[88,55],
+        "crop_right_bottom":[0.1,0.1],
+        "crop_height": 337,
+        "crop_width": 190
+    }
+}

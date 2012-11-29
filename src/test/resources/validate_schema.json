@@ -1,0 +1,5 @@
+{
+   origin:"images/sample_1024_1024.jpeg",
+   schema:"schema1",
+   destination:"images/sample_1024_1024_validated.jpeg"
+}

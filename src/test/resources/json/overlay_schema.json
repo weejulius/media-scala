@@ -1,0 +1,23 @@
+{
+   schema:"overlay_schema",
+   transforms:[
+      {
+            transform:"crop",
+            padding:[10,0.1,20,30]
+      },
+      {
+            transform:"scale",
+            width:"${scale_percentage}"
+      },
+      {
+            transform:"overlay",
+            text:" Come on baby ",
+            right_bottom:[20,20]
+      },
+      {
+            transform:"overlay image",
+            image:"samples/sample_40_40.png",
+            right_bottom:[30,30]
+      }   
+   ]
+}

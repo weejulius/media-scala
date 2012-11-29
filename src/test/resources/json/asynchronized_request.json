@@ -1,0 +1,9 @@
+{
+   origin:"samples/sample_1024_1024.jpeg",
+   schema:"overlay_schema",
+   variables:{
+         scale_percentage:0.753
+   },
+   destination:"test/sample_1024_1024_overlay.jpeg",
+   callback:"http://localhost:8088"
+}

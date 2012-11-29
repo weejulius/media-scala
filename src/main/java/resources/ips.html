@@ -1,0 +1,29 @@
+<html>
+<body>
+	<form method="post" action="/media/rest/image/process">
+		<input type="submit" value="submit" style="display: block" />
+		<textarea rows="40" cols="100" style="font-size: 10px">
+     {
+        origin:"sample/sample_1024_1024.jpeg",
+        transforms:[
+          {
+            transform:"crop",
+            padding:[10,20,40,60]
+          },
+          {
+            transform:"scale",
+            width:0.7
+          },
+          {
+            transform:"overlay",
+            right_bottom:[40,50],
+            text:"Rock me! the netcirCLE"
+          } 
+        ],
+        destination:"test/sample_1024_1024_schema1.jpeg"
+      }                        `
+    </textarea>
+
+	</form>
+</body>
+</html>

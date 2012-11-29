@@ -1,0 +1,50 @@
+{
+   origin:"samples/sample_1024_1024.jpeg",
+   transforms:[
+      {
+            transform:"crop",
+            padding:[10,20,40,60]
+      },
+      {
+            transform:"crop",
+            left_top:[10,20],
+            size:[800,800]
+      },
+      {
+            transform:"crop",
+            right_bottom:[10,20],
+            size:[600,600]
+      },
+      {
+            transform:"scale",
+            width:400
+      },
+      {
+            transform:"scale",
+            size:[300,300]
+      },
+      {
+            transform:"scale",
+            height:200
+      },
+      {
+            transform:"scale",
+            percentage:85.5
+      },
+      {
+            transform:"overlay",
+            text:"the netcircle.com",
+            right_bottom:[30,30]
+      },
+      {
+            transform:"overlay image",
+            image:"samples/sample_40_40.png",
+            right_bottom:[30,30]
+      }   
+   ],
+   options:{
+         quality:0.75,
+         format:"png"
+   },
+   destination:"test/sample_300_300_crop_scale.jpeg" 
+}

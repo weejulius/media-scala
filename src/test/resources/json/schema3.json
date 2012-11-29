@@ -1,0 +1,9 @@
+{
+   schema:"schema2",
+   transformS:[
+      {
+           transform:"crop",
+           padding:[0.1,0.2,0.4,0.6]
+      }
+   ]
+}
